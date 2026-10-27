@@ -1,0 +1,13 @@
+{
+  "name": "V2 Development",
+  "short_name": "V2 Development",
+  "description": "Freehold landed homes across Selangor by V2 Development Sdn. Bhd.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0C1612",
+  "theme_color": "#0C1612",
+  "icons": [
+    { "src": "favicon.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

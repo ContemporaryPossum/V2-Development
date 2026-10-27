@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>V2 Development | Freehold landed homes in Selangor</title>
+  <meta name="description" content="V2 Development Sdn. Bhd. designs and builds freehold landed homes across Selangor, from Meru and Kapar to Pulau Indah, Sepang and Shah Alam. Quality life with your precious one.">
+  <meta name="theme-color" content="#0C1612">
+  <link rel="canonical" href="https://v2-d.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="V2 Development">
+  <meta property="og:title" content="V2 Development | Freehold landed homes in Selangor">
+  <meta property="og:description" content="Terrace, semi-detached and bungalow homes across Selangor, designed and built by V2 Development.">
+  <meta property="og:image" content="https://v2-d.com/og-image.jpg">
+  <meta property="og:url" content="https://v2-d.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "V2 Development Sdn. Bhd.",
+    "url": "https://v2-d.com/",
+    "logo": "https://v2-d.com/logo-colour.png",
+    "image": "https://v2-d.com/og-image.jpg",
+    "telephone": "+60351317168",
+    "email": "marketing@v2-d.com.my",
+    "foundingDate": "2019",
+    "slogan": "Quality life with your precious one.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No. 17 & 17-1, Jalan Sungai Rasau E32/E, Taman Perindustrian Berjaya",
+      "addressLocality": "Shah Alam",
+      "postalCode": "40460",
+      "addressRegion": "Selangor",
+      "addressCountry": "MY"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }],
+    "areaServed": ["Shah Alam", "Klang", "Kapar", "Pulau Indah", "Sepang"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Preloader: hairline rule, emblem, counter -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <img class="preloader__mark" src="emblem-light.png" alt="" width="72" height="56">
+      <span class="preloader__rule"></span>
+      <span class="preloader__count"><span class="js-count">0</span></span>
+    </div>
+  </div>
+
+  <!-- Fixed cinematic background: scroll-scrubbed film rendered through WebGL, video fallback -->
+  <div class="stage" aria-hidden="true">
+    <div class="stage__media">
+      <video class="stage__video" muted playsinline preload="auto" disablepictureinpicture disableremoteplayback></video>
+      <canvas class="stage__gl"></canvas>
+    </div>
+    <div class="stage__scrim"></div>
+    <div class="stage__grade"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor__label">View</span></div>
+
+  <header class="nav" data-nav>
+    <a class="nav__brand" href="#top" aria-label="V2 Development, back to top">
+      <img src="emblem-light.png" alt="" width="36" height="28">
+      <span>V2 Development</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#projects">Homes</a>
+      <a href="#numbers">Portfolio</a>
+      <a href="#progress">Site progress</a>
+      <a href="#partners">Landowners</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--brass btn--sm nav__cta" href="#contact" data-magnetic>
+      <span>Book a viewing</span>
+      <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+    </a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <span class="nav__progress" aria-hidden="true"></span>
+  </header>
+
+  <div class="menu" id="menu" hidden data-lenis-prevent>
+    <nav aria-label="Mobile">
+      <a href="#projects">Homes</a>
+      <a href="#numbers">Portfolio</a>
+      <a href="#progress">Site progress</a>
+      <a href="#pipeline">Upcoming</a>
+      <a href="#partners">Landowners</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="tel:+60351317168">03-5131 7168</a>
+      <a href="mailto:marketing@v2-d.com.my">marketing@v2-d.com.my</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top" data-scrim="0.18">
+      <div class="hero__content wrap">
+        <h1 class="hero__title" data-hero-title>
+          <span class="line"><span>Quality life</span></span>
+          <span class="line"><span>with your</span></span>
+          <span class="line"><span>precious one.</span></span>
+        </h1>
+        <div class="hero__aside">
+          <p class="hero__lede" data-hero-fade>Freehold landed homes across Selangor, from Meru and Kapar to Pulau&nbsp;Indah, Sepang and Shah&nbsp;Alam. Designed, built and handed over by V2&nbsp;Development.</p>
+          <div class="hero__ctas" data-hero-fade>
+            <a class="btn btn--brass" href="#projects" data-magnetic>
+              <span>Explore our homes</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>
+            </a>
+            <a class="btn btn--ghost" href="tel:+60351317168" data-magnetic>
+              <span>Call 03-5131 7168</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__seal" data-hero-seal data-tilt>
+        <div class="medal medal--sm" role="img" aria-label="Badge: 1000+ happy clients">
+          <span class="medal__gold medal--clients"></span>
+        </div>
+      </div>
+      <div class="hero__cue wrap" data-hero-fade>
+        <span class="hero__cue-line" aria-hidden="true"></span>
+        <span>Scroll to fly in</span>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="story" id="story" data-scrim="0.55">
+      <div class="wrap story__wrap">
+        <p class="story__text" data-words>We build homes the way we would want our own families to live in them. Every development is a chance to lift the look and life of the neighbourhood around it: safe streets, practical layouts, freehold land and individual titles, at prices working families can reach.</p>
+        <div class="story__meta">
+          <p>V2 Development Sdn. Bhd. was incorporated in Selangor in 2019. We develop residential and industrial property, acquire land, and build in joint venture with landowners.</p>
+          <a class="link" href="#partners">Working with landowners</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HONOURS: the four badges morph into one another, pixel by pixel -->
+    <section class="honours" id="honours" data-scrim="0.62" aria-labelledby="honours-title">
+      <div class="honours__pin">
+        <div class="wrap honours__grid">
+          <div class="honours__copy">
+            <h2 class="h2" id="honours-title" data-split>Four marks of a V2&nbsp;home</h2>
+            <ol class="honours__list">
+              <li class="is-active">
+                <h3>1000+ happy clients</h3>
+                <p>More than a thousand homebuyers across Selangor have chosen a V2&nbsp;home.</p>
+              </li>
+              <li>
+                <h3>High customer satisfaction</h3>
+                <p>Free SPA legal fees and free MOT on many of our projects mean fewer surprises at signing.</p>
+              </li>
+              <li>
+                <h3>1000+ houses in progress</h3>
+                <p>Landed homes under construction from Kapar to Sepang, with site photos published as work moves.</p>
+              </li>
+              <li>
+                <h3>Solid, high-quality build</h3>
+                <p>Freehold land, individual titles, and built-ups of up to 1,860&nbsp;sq&nbsp;ft in our double-storey homes.</p>
+              </li>
+            </ol>
+            <div class="honours__pips" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          </div>
+          <div class="honours__stage" data-tilt>
+            <div class="honours__halo" aria-hidden="true"></div>
+            <div class="medal medal--lg" aria-hidden="true">
+              <span class="medal__gold medal--clients is-on"></span>
+              <span class="medal__gold medal--satisfaction"></span>
+              <span class="medal__gold medal--houses"></span>
+              <span class="medal__gold medal--quality"></span>
+            </div>
+            <canvas class="honours__dust" aria-hidden="true"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee" aria-label="Where we build" data-scrim="0.4">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__row">
+          <span>Meru</span><img src="emblem-light.png" alt="" width="40" height="31"><span>Kapar</span><img src="emblem-light.png" alt="" width="40" height="31"><span>Pulau Indah</span><img src="emblem-light.png" alt="" width="40" height="31"><span>Sungai Pelek</span><img src="emblem-light.png" alt="" width="40" height="31"><span>Shah Alam</span><img src="emblem-light.png" alt="" width="40" height="31"><span>Klang</span><img src="emblem-light.png" alt="" width="40" height="31">
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects" data-scrim="0.5" aria-labelledby="projects-title">
+      <div class="projects__pin">
+        <div class="wrap projects__head">
+          <h2 class="h2" id="projects-title" data-split>Homes we are building now</h2>
+          <p class="projects__intro">Seven developments across Selangor, plus one already sold out. Drag, scroll or tap a home for its details.</p>
+          <div class="projects__counter" aria-hidden="true"><span class="js-proj-index">1</span><span class="projects__counter-bar"><i></i></span><span>8</span></div>
+        </div>
+        <div class="projects__viewport">
+          <ul class="projects__track" role="list">
+            <!-- cards rendered by main.js from PROJECTS data, static fallbacks kept minimal -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERS / DATA -->
+    <section class="numbers" id="numbers" data-scrim="0.72" aria-labelledby="numbers-title">
+      <div class="wrap">
+        <div class="numbers__head">
+          <h2 class="h2" id="numbers-title" data-split>The portfolio, in numbers</h2>
+          <p>Every figure here comes from V2 Development's published project listings. Hover or tap the charts to explore.</p>
+        </div>
+        <div class="numbers__grid">
+          <figure class="panel panel--wide chart" data-chart="timeline">
+            <figcaption>
+              <h3>Homes by completion year</h3>
+              <p>Bars show homes due each year. The line is the running total.</p>
+            </figcaption>
+            <div class="chart__body"></div>
+          </figure>
+          <figure class="panel chart" data-chart="mix">
+            <figcaption>
+              <h3>What we build</h3>
+              <p>277 homes across seven current developments.</p>
+            </figcaption>
+            <div class="chart__body"></div>
+          </figure>
+          <figure class="panel panel--wide chart" data-chart="prices">
+            <figcaption>
+              <h3>Listed prices</h3>
+              <p>From a sold-out RM392,000 terrace to a RM1.7 million bungalow.</p>
+            </figcaption>
+            <div class="chart__body"></div>
+          </figure>
+          <figure class="panel chart" data-chart="radar">
+            <figcaption>
+              <h3>Where we build</h3>
+              <p>Approximate straight-line distance from our Shah Alam office.</p>
+            </figcaption>
+            <div class="chart__body"></div>
+          </figure>
+        </div>
+        <p class="numbers__source">Source: V2 Development listings at v2-d.com, October 2026. Prices are indicative and may change; please confirm with our sales team.</p>
+      </div>
+    </section>
+
+    <!-- SITE PROGRESS: stacking cards -->
+    <section class="progress" id="progress" data-scrim="0.45" aria-labelledby="progress-title">
+      <div class="wrap progress__head">
+        <h2 class="h2" id="progress-title" data-split>Watch the homes rise</h2>
+        <p>Recent photos from our sites, from cleared earth to roof trusses.</p>
+      </div>
+      <div class="wrap progress__stack">
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-desa-bukit-permata.webp" alt="Cleared and levelled red earth at the Desa Bukit Permata site in Meru, Klang" loading="lazy" width="1280" height="960"></div>
+          <div class="pcard__body">
+            <h3>Desa Bukit Permata</h3>
+            <p class="pcard__where">Jalan Kempas 1, Meru, Klang</p>
+            <p>Earthworks complete and the land levelled for 30 double-storey terraces.</p>
+            <p class="pcard__date">Updated 12 October 2026</p>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-meru-permai.webp" alt="Steel reinforcement laid for a ground slab at Taman Meru Permai" loading="lazy" width="1280" height="960"></div>
+          <div class="pcard__body">
+            <h3>Taman Meru Permai</h3>
+            <p class="pcard__where">Jalan Jambu, Meru, Klang</p>
+            <p>Reinforcement going down for the ground slabs.</p>
+            <p class="pcard__date">Updated 8 October 2026</p>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-harmoni-sepang.webp" alt="Single-storey semi-detached homes with orange gables taking shape among oil palms at Taman Harmoni, Sepang" loading="lazy" width="1280" height="960"></div>
+          <div class="pcard__body">
+            <h3>Taman Harmoni, Sepang</h3>
+            <p class="pcard__where">Sungai Pelek, Sepang</p>
+            <p>Roofs on and facades taking shape on the first semi-detached homes.</p>
+            <p class="pcard__date">Updated 12 October 2026</p>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-dato-harun-5.webp" alt="A row of rendered single-storey terraces with drainage works at Taman Dato Harun 5" loading="lazy" width="1280" height="960"></div>
+          <div class="pcard__body">
+            <h3>Taman Dato Harun 5</h3>
+            <p class="pcard__where">Jalan Dato Harun, Pulau Indah</p>
+            <p>Walls plastered and roofed; drainage and external works under way.</p>
+            <p class="pcard__date">Updated 8 October 2026</p>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-razali-2.webp" alt="Laterite access road prepared at the Taman Dato Ahmad Razali 2 site in Pulau Indah" loading="lazy" width="1280" height="960"></div>
+          <div class="pcard__body">
+            <h3>Taman Dato Ahmad Razali 2</h3>
+            <p class="pcard__where">Jalan Dato Ahmad Razali, Pulau Indah</p>
+            <p>Access road formed and the site prepared for building.</p>
+            <p class="pcard__date">Updated 8 October 2026</p>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="pcard__img"><img src="progress-khalid-al-walid-3.webp" alt="Drone view of a completed row of terrace homes at Taman Khalid Al-Walid 3" loading="lazy" width="1600" height="1200"></div>
+          <div class="pcard__body">
+            <h3>Taman Khalid Al-Walid 3</h3>
+            <p class="pcard__where">Jalan Kebun, Shah Alam</p>
+            <p>Twenty-four double-storey terraces, photographed from the air.</p>
+            <p class="pcard__date">Updated 22 June 2026</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PIPELINE -->
+    <section class="pipeline" id="pipeline" data-scrim="0.7" aria-labelledby="pipeline-title">
+      <div class="wrap">
+        <div class="pipeline__head">
+          <h2 class="h2" id="pipeline-title" data-split>Land in the pipeline</h2>
+          <p>Five parcels listed for upcoming single-storey terrace launches. Each plan is drawn to the lot sizes we have published, one rectangle per home.</p>
+        </div>
+        <ul class="pipeline__list" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="partners" id="partners" data-scrim="0.3" aria-labelledby="partners-title">
+      <div class="wrap">
+        <div class="partners__panel" data-arch>
+          <div class="partners__inner">
+            <h2 class="h2" id="partners-title" data-split>Own land in Selangor? Let's build on it together.</h2>
+            <div class="partners__cols">
+              <p>We work with landowners through outright land acquisition or joint venture. Tell us where your land is, its size and its title, and our team will come back to you with a proposal.</p>
+              <ul class="partners__ways" role="list">
+                <li>
+                  <h3>Land acquisition</h3>
+                  <p>We buy residential land outright and take it through approvals, construction and handover.</p>
+                  <button class="link" type="button" data-enquire="Land acquisition">Start a land enquiry</button>
+                </li>
+                <li>
+                  <h3>Joint venture</h3>
+                  <p>Keep a stake in your land while we design, build and sell the development.</p>
+                  <button class="link" type="button" data-enquire="Joint venture partnership">Propose a partnership</button>
+                </li>
+                <li>
+                  <h3>Industrial development</h3>
+                  <p>Our industrial division is preparing its first launches. Ask to be told first.</p>
+                  <button class="link" type="button" data-enquire="Industrial development">Register interest</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" data-scrim="0.66" aria-labelledby="contact-title">
+      <div class="wrap contact__grid">
+        <div class="contact__info">
+          <h2 class="h2" id="contact-title" data-split>Visit us in Shah&nbsp;Alam</h2>
+          <address>
+            No. 17 &amp; 17-1, Jalan Sungai Rasau E32/E,<br>
+            Taman Perindustrian Berjaya,<br>
+            40460 Shah Alam, Selangor
+          </address>
+          <dl class="contact__list">
+            <div><dt>Office</dt><dd><a href="tel:+60351317168">03-5131 7168</a></dd></div>
+            <div><dt>Sales</dt><dd><a href="tel:+60126841812">012-684 1812</a><br><a href="tel:+60102689812">010-268 9812</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:marketing@v2-d.com.my">marketing@v2-d.com.my</a></dd></div>
+            <div><dt>Hours</dt><dd>Monday to Friday, 9am to 5pm</dd></div>
+          </dl>
+          <div class="contact__map">
+            <iframe title="Map to V2 Development's office in Shah Alam" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" data-src="https://maps.google.com/maps?q=Jalan%20Sungai%20Rasau%20E32%2FE%2C%20Taman%20Perindustrian%20Berjaya%2C%2040460%20Shah%20Alam&amp;z=15&amp;output=embed"></iframe>
+            <a class="link" href="https://maps.google.com/?q=Jalan+Sungai+Rasau+E32%2FE+Taman+Perindustrian+Berjaya+40460+Shah+Alam" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+          </div>
+        </div>
+
+        <form class="enquiry" novalidate data-enquiry>
+          <span class="enquiry__beam" aria-hidden="true"></span>
+          <h3>Tell us what you are looking for</h3>
+          <p class="enquiry__note">Your message opens in WhatsApp or your email app, ready to send to our sales team. Nothing is stored on this website.</p>
+          <div class="field">
+            <label for="f-name">Full name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="80">
+            <p class="field__error" id="f-name-err" hidden>Enter your name so we know who to reply to.</p>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone number</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="012-345 6789">
+            <p class="field__error" id="f-phone-err" hidden>Enter a Malaysian phone number, for example 012-345 6789.</p>
+          </div>
+          <div class="field">
+            <label for="f-email">Email <span class="field__opt">(optional)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" maxlength="120">
+            <p class="field__error" id="f-email-err" hidden>Check the email address, it should look like name@example.com.</p>
+          </div>
+          <div class="field">
+            <label for="f-topic">I'm interested in</label>
+            <div class="select">
+              <select id="f-topic" name="topic">
+                <option>Buying a home</option>
+                <option>Taman Desa Bukit Permata</option>
+                <option>Taman Meru Permai</option>
+                <option>Taman Harmoni, Sepang</option>
+                <option>Taman Dato Harun 5</option>
+                <option>Taman Tok Muda Berjaya</option>
+                <option>Taman Khalid Al-Walid 3</option>
+                <option>Taman Imam Yusof 5</option>
+                <option>Upcoming launches</option>
+                <option>Land acquisition</option>
+                <option>Joint venture partnership</option>
+                <option>Industrial development</option>
+                <option>Something else</option>
+              </select>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">Message <span class="field__opt">(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="4" maxlength="800" placeholder="Preferred unit type, budget, or a good time to call"></textarea>
+          </div>
+          <div class="enquiry__actions">
+            <button class="btn btn--brass" type="submit" value="whatsapp" data-magnetic>
+              <span>Send on WhatsApp</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </button>
+            <button class="btn btn--ghost" type="submit" value="email" data-magnetic><span>Send by email</span></button>
+          </div>
+          <p class="enquiry__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-scrim="0.8">
+    <div class="wrap">
+      <p class="footer__word" data-pressure>V2 Development</p>
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo-colour.png" alt="V2 Development logo" width="160" height="125" loading="lazy">
+          <p>Quality life with your precious one.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#projects">Current homes</a>
+          <a href="#progress">Site progress</a>
+          <a href="#pipeline">Upcoming launches</a>
+          <a href="#partners">Landowners and partners</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer__contact">
+          <a href="tel:+60351317168">03-5131 7168</a>
+          <a href="mailto:marketing@v2-d.com.my">marketing@v2-d.com.my</a>
+          <p>No. 17 &amp; 17-1, Jalan Sungai Rasau E32/E, Taman Perindustrian Berjaya, 40460 Shah Alam, Selangor</p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>&copy; <span class="js-year">2026</span> V2 Development Sdn. Bhd. (201901015722)</p>
+        <p>Images are artist's impressions and site photographs. Prices, sizes and dates are indicative and subject to change.</p>
+        <button class="link" type="button" data-to-top>Back to top</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="gsap.min.js" defer></script>
+  <script src="ScrollTrigger.min.js" defer></script>
+  <script src="SplitText.min.js" defer></script>
+  <script src="lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>

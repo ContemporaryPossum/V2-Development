@@ -1,0 +1,12 @@
+// Cloudflare deploy settings, read by `npx wrangler deploy`.
+// The whole site is static: every file in this folder is served as-is,
+// except those listed in .assetsignore.
+{
+  "name": "v2-development",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

@@ -19,17 +19,18 @@ Every file sits in the root folder, so you can upload them to GitHub as they are
 | `main.js` | Shared header, menu, footer, forms, gallery and animations |
 | `styles.css` | All styling. Colours and fonts are set at the top in `:root` |
 | `favicon.svg`, `robots.txt`, `sitemap.xml`, `_headers` | Icon, SEO files and Cloudflare security headers |
+| `wrangler.jsonc`, `.assetsignore`, `.gitignore` | Cloudflare deploy settings, and the files kept off the live site |
 
 ## Deploy
 
-1. **GitHub:** create a new repository, choose *Add file → Upload files*, drag in every file, and commit.
-2. **Cloudflare:** go to *Workers & Pages → Create → Pages → Connect to Git* and pick the repository.
-   - Framework preset: **None**
-   - Build command: *leave empty*
-   - Build output directory: **/**
-3. Add your custom domain under the project's *Custom domains* tab.
+The site is deployed as a Cloudflare **Worker** (Workers & Pages → `v2-development`), connected to this GitHub repository.
 
-Each push to GitHub redeploys the site automatically.
+- Deploy command: `npx wrangler deploy` (Cloudflare's default). No build command is needed.
+- `wrangler.jsonc` tells Cloudflare to serve this folder as a static site, use `404.html` for missing pages and apply `_headers`.
+- `.assetsignore` keeps `.git`, `README.md` and the config files from being published.
+- If you rename the Worker in Cloudflare, change `"name"` in `wrangler.jsonc` to match.
+
+Each push to the `main` branch redeploys the site automatically. Add your domain under the Worker's *Settings → Domains & Routes*.
 
 ## Editing content
 

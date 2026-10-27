@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Collection | V2 Development</title>
+  <meta name="description" content="Freehold bungalows, semi-detached and terrace homes by V2 Development in Shah Alam, Meru, Kapar, Pulau Indah and Sepang, Selangor.">
+  <link rel="canonical" href="https://v2-d.com/residences">
+  <meta name="theme-color" content="#3b0e18">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="V2 Development">
+  <meta property="og:title" content="The Collection | V2 Development">
+  <meta property="og:description" content="Freehold residences across Selangor.">
+  <meta property="og:image" content="https://v2-d.com/meru-permai-01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,300..700&family=Instrument+Serif&family=Pinyon+Script&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="residences">
+  <div class="curtain" aria-hidden="true"><span class="curtain__mark display">V2</span></div>
+
+  <main id="main">
+    <section class="phero" id="top" data-header="light">
+      <div class="phero__media"><img src="meru-permai-01.jpg" alt="" fetchpriority="high" data-parallax-img></div>
+      <div class="phero__inner wrap">
+        <p class="label" data-hero>Freehold residences · Selangor</p>
+        <h1 class="display d-xl" data-split data-hero>The<br>Collection</h1>
+        <p class="script phero__script" data-hero>homes to keep</p>
+      </div>
+      <div class="phero__foot wrap" data-hero>
+        <span class="label">Bungalows · Semi-detached · Terraces</span>
+        <a class="label link-line" href="#listing">View residences</a>
+      </div>
+    </section>
+
+    <section class="section t-ivory" id="listing" data-header="dark">
+      <div class="wrap">
+        <div class="filters">
+          <div class="filters__tabs" role="group" aria-label="Filter residences by status">
+            <button type="button" class="filters__tab" data-filter-status="all" aria-pressed="true">All<span class="filters__n"></span></button>
+            <button type="button" class="filters__tab" data-filter-status="current" aria-pressed="false">Current<span class="filters__n"></span></button>
+            <button type="button" class="filters__tab" data-filter-status="completed" aria-pressed="false">Completed<span class="filters__n"></span></button>
+          </div>
+          <label class="field"><span class="label">Location</span><select id="area-filter"></select></label>
+        </div>
+        <div class="grid-res" id="res-grid"></div>
+        <p class="res-empty muted" id="res-empty" hidden>No residences match this filter yet. <a class="link-line" href="residences.html">Show all residences</a></p>
+      </div>
+    </section>
+
+    <section class="upcoming section t-stone" data-header="dark">
+      <div class="wrap">
+        <header class="sec-head sec-head--row">
+          <div>
+            <p class="label" data-reveal>Upcoming launches</p>
+            <h2 class="display d-l" data-split>Coming<br>soon</h2>
+          </div>
+          <div>
+            <p class="lede muted" data-reveal>New freehold communities are being prepared across Selangor. Register your interest and our team will contact you as each one opens for booking.</p>
+            <button class="btn btn--line" type="button" data-open="enquire" data-reveal><span>Register early interest</span><svg class="ico-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h17M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.1"/></svg></button>
+          </div>
+        </header>
+        <div class="table-wrap" data-reveal>
+          <table class="table">
+            <thead><tr><th>Development</th><th>Location</th><th>Home type</th><th>Homes</th><th>Land size</th><th>Status</th></tr></thead>
+            <tbody id="upcoming-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>

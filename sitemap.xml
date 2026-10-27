@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://v2-d.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://v2-d.com/residences</loc><priority>0.9</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-harmoni</loc><priority>0.8</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-meru-permai</loc><priority>0.8</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-desa-bukit-permata</loc><priority>0.8</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-dato-harun-5</loc><priority>0.8</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-tok-muda-berjaya</loc><priority>0.8</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-khalid-al-walid-3</loc><priority>0.7</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-imam-yusof-5</loc><priority>0.7</priority></url>
+  <url><loc>https://v2-d.com/residence?p=taman-tok-muda-sejahtera</loc><priority>0.5</priority></url>
+  <url><loc>https://v2-d.com/about</loc><priority>0.7</priority></url>
+  <url><loc>https://v2-d.com/progress</loc><priority>0.7</priority></url>
+  <url><loc>https://v2-d.com/partners</loc><priority>0.6</priority></url>
+  <url><loc>https://v2-d.com/contact</loc><priority>0.7</priority></url>
+</urlset>
